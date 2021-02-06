@@ -16,13 +16,18 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
   - [ ] Less popular videos rely on the detailed page should show an image preview that can initiate playing a YouTube video.
 - [ ] Add a play icon overlay to popular movies to indicate that the movie can be played (1 point).
 - [ ] Apply data binding for views to help remove boilerplate code. (1 point)
-- [ ] Add a rounded corners for the images using the Glide transformations. (1 point)
+- [X] Add a rounded corners for the images using the Glide transformations. (1 point)
 
 ### App Walkthough GIF
 <img src="https://github.com/Angelica-M/Flixster/blob/master/demoFlixster2.gif" width=250><br>
+<img src="https://github.com/Angelica-M/Flixster/blob/master/demoFlixster2.1.gif" width=250><br>
 
 ### Notes
- When using the YouTube v3 API, use an emulator of API Level 28 or 29 but not of Level 30.
+ When using the YouTube v3 API, use an emulator of API Level 28 or 29 but not of Level 30. To restore the app to the state in demoFlixster2, convert line
+  Glide.with(context).load(imageUrl).transform(new RoundedCornersTransformation(60, 0)).into(ivPoster); 
+to 
+  Glide.with(context).load(imageUrl).into(ivPoster);
+of MovieAdapter.java.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
