@@ -21,7 +21,7 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
 ### App Walkthough GIF
 <img src="https://github.com/Angelica-M/Flixster/blob/master/demoFlixster2.gif" width=250><br>
 <img src="https://github.com/Angelica-M/Flixster/blob/master/demoFlixster2.1.gif" width=250><br>
-<img src="https://github.com/Angelica-M/Flixster/blob/master/demoFlixster2.2.gif" width=550><br>
+<img src="https://github.com/Angelica-M/Flixster/blob/master/demoFlixster2.2.gif" width=525><br>
 
 ### Notes
  When using the YouTube v3 API, use an emulator of API Level 28 or 29 but not of Level 30. To restore the app to the state in demoFlixster2, convert line
