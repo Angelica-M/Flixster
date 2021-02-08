@@ -21,7 +21,7 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
 ### App Walkthough GIF
 <img src="https://github.com/Angelica-M/Flixster/blob/master/demoFlixster2.gif" width=250><br>
 <img src="https://github.com/Angelica-M/Flixster/blob/master/demoFlixster2.1.gif" width=250><br>
-<img src="https://github.com/Angelica-M/Flixster/blob/master/demoFlixster2.2.gif" width=250><br>
+<img src="https://github.com/Angelica-M/Flixster/blob/master/demoFlixster2.2.gif" width=625><br>
 
 ### Notes
  When using the YouTube v3 API, use an emulator of API Level 28 or 29 but not of Level 30. To restore the app to the state in demoFlixster2, convert line
@@ -52,7 +52,7 @@ of MovieAdapter.java.
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
-<img src="https://github.com/Angelica-M/Flixster/blob/master/demoFlixster.gif" width=500><br>
+<img src="https://github.com/Angelica-M/Flixster/blob/master/demoFlixster.gif" width=250><br>
 
 ### Notes
 No challenges were faced.
